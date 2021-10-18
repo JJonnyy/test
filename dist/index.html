@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div class="logo">
+                    <a href="/"><img src="images/dest/logo.png" alt=""></a>
+                </div>
+                <div class="search">
+                    <input class="search-input" type="text">
+                    <div class="search-button">
+                        <img src="images/dest/icon-search.svg" alt="">
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="account-item open-popup">
+                        <img src="images/dest/icon-account.svg" alt="">
+                    </div> 
+                    <div class="account-item">
+                        <img src="images/dest/icon-heart.svg" alt="">
+                    </div>
+                    <div>
+                        <img class="account-item" src="images/dest/icon-truck.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="popup__bg">
+            <form class="popup formWithValidation" action="" method="post">
+                <img src="images/dest/close.png" class="close-popup">
+                <label>
+                    <div class="label__text">
+                        <label>Логин:</label>
+                        <div>
+                            <input type="text" class="from field" />
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="password" class="password field" />
+                    <div class="label__text">
+                        Пароль:
+                    </div>
+                </label>
+                <button type="submit" class="validateBtn" value="Войти">Войти</button>
+            </form>
+        </div>
+    </header>
+    <section id="slider">
+        <div class="container">
+            <div class="slider-container">
+                <div class="slider">
+    
+                    <div class="adaptivn-slayder">
+                        <div class="parag">
+                        <img src="images/dest/slider1.jpg" alt="">
+                        <div class="beksun-slayda">1</div>
+                        </div>
+                      
+                        <div class="parag">
+                            <img src="images/dest/slider1.jpg" alt="">
+                        <div class="beksun-slayda">2</div>
+                        </div>
+                      
+                        <div class="parag">
+                            <img src="images/dest/slider1.jpg" alt="">
+                        <div class="beksun-slayda">3</div>
+                        </div>
+                      
+                        <a class="prev" onclick="minusSlide()">❮</a>
+                        <a class="next" onclick="plusSlide()">❯</a>
+                      </div>
+                      
+                      <div class="uneizmen-akemada">
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(1)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(2)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(3)"></span>  
+                      </div>
+                </div>
+                <div class="product-img">
+                    <img src="images/dest/product-wath.png" alt="">
+                    <img src="images/dest/product-wath.png" alt="">
+                </div>
+            </div>
+           
+
+        </div>
+        
+        
+    </section>
+    <section id="shop"> 
+        <div class="container">
+            <div class="shop-container">
+                <p class="shop-title">
+                    shop by category
+                </p>
+                <div class="shop-block">
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-earphone.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-divan.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-phone.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-divan.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-earphone.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                    <div class="shop-item">
+                        <img class="shop-item-img" src="images/dest/product-chair.png" alt="">
+                        <p class="shop-item-text">Dinig Tables</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="deals">
+        <div class="container">
+            <div class="deals-container">
+                <p class="deals-title">deals of the day</p>
+                <div class="deals-block">
+                    <div class="deals-item">
+                        <img class="deals-img" src="images/dest/product-column.png" alt="">
+                        <div class="deals-star">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                        </div>
+                        <p class="price-text">Lorem ipsum dolor sit amet ...</p>
+                        <div class="deals-price">
+                            <p class="actual-price">$250.00</p>
+                            <p class="price-before">$609.00</p>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <img class="deals-img" src="images/dest/product-wath2.png" alt="">
+                        <div class="deals-star">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                        </div>
+                        <p class="price-text">Lorem ipsum dolor sit amet ...</p>
+                        <div class="deals-price">
+                            <p class="actual-price">$250.00</p>
+                            <p class="price-before">$609.00</p>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <img class="deals-img" src="images/dest/product-column.png" alt="">
+                        <div class="deals-star">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                        </div>
+                        <p class="price-text">Lorem ipsum dolor sit amet ...</p>
+                        <div class="deals-price">
+                            <p class="actual-price">$250.00</p>
+                            <p class="price-before">$609.00</p>
+                        </div>
+                    </div>
+                    <div class="deals-item">
+                        <img class="deals-img" src="images/dest/product-column.png" alt="">
+                        <div class="deals-star">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                            <img src="images/dest/icon-star-clear.svg" alt="">
+                        </div>
+                        <p class="price-text">Lorem ipsum dolor sit amet ...</p>
+                        <div class="deals-price">
+                            <p class="actual-price">$250.00</p>
+                            <p class="price-before">$609.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container">
+            <div class="news-container">
+                <p class="news-title">Latest News</p>
+                <div class="news-block">
+                    <div class="news-item">
+                        <div class="news-date">
+                            <p class="news-date-text">01 Marc, 2021</p>
+                        </div>
+                        <img  class="news-img"src="images/dest/news1.jpg" alt="">
+                        <div class="news-comment">
+                            <div class="news-comment-icons">
+                                <img class="comment-icons-img"src="images/dest/icon-comments.svg" alt="">
+                                <p class="comment-text"> 1 Comments</p>
+                            </div>
+                            <p class="comment-title">Lorem ipsum dolor sit amet, consectetur.</p>
+                            <p class="comment-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore </p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <p class="news-date-text">01 Marc, 2021</p>
+                        </div>
+                        <img class="news-img" src="images/dest/news2.jpg" alt="">
+                        <div class="news-comment">
+                            <div class="news-comment-icons">
+                                <img class="comment-icons-img"src="images/dest/icon-comments.svg" alt="">
+                                <p class="comment-text"> 1 Comments</p>
+                            </div>
+                            <p class="comment-title">Lorem ipsum dolor sit amet, consectetur.</p>
+                            <p class="comment-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore </p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">
+                            <p class="news-date-text">01 Marc, 2021</p>
+                        </div>
+                        <img  class="news-img" src="images/dest/news1.jpg" alt="">
+                        <div class="news-comment">
+                            <div class="news-comment-icons">
+                                <img class="comment-icons-img"src="images/dest/icon-comments.svg" alt="">
+                                <p class="comment-text"> 1 Comments</p>
+                            </div>
+                            <p class="comment-title">Lorem ipsum dolor sit amet, consectetur.</p>
+                            <p class="comment-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
