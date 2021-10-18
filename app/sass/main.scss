@@ -538,6 +538,9 @@ header {
     .product-img img {
         width: 200px;
     }
+    .deals-block{
+        justify-content: space-around;
+    }
 }
 
 @media(max-width:720px) {
