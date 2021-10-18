@@ -211,13 +211,15 @@ header {
 
 .popup button:hover {
     background: #fff;
-    color: #000000;;
+    color: #000000;
+    ;
     transition: 0.5s all;
 }
 
-.validateBtn{
-    color:#000000;
+.validateBtn {
+    color: #000000;
 }
+
 // ///////////////////////////Slider/////////////////////////////////////////
 
 #slider {
@@ -234,8 +236,8 @@ header {
 }
 
 .slider {
-    width: 964px;
-    height: 450px;
+    max-width: 964px;
+    min-height: 450px;
 }
 
 .adaptivn-slayder {
@@ -362,9 +364,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.shop-item{
-    margin-bottom:25px ;
+
+.shop-item {
+    margin-bottom: 25px;
 }
+
 .shop-item-img {
     margin-bottom: 30px;
     border: 16px solid #f5f5f5;
@@ -523,8 +527,69 @@ header {
     color: #32656A;
 }
 
-@media(max-width:1214px){
-    .news-block{
-        justify-content:space-around;
+@media(max-width:1214px) {
+    .news-block {
+        justify-content: space-around;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .product-img img {
+        width: 200px;
+    }
+}
+
+@media(max-width:720px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .search {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .slider {
+        min-height: max-content;
+    }
+
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .product-img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .shop-block {
+        justify-content: center;
+    }
+
+    .deals-block {
+        justify-content: center;
+    }
+
+    .deals-item {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .product-img img {
+        width: 150px;
+    }
+
+    .news-block {
+        justify-content: center;
+    }
+
+    .news-item {
+        min-width: 100%;
+        max-width:320px;
+    }
+    .news-img{
+        width: 320px;
     }
 }
